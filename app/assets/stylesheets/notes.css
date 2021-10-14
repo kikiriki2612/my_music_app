@@ -1,0 +1,18 @@
+.note-item {
+  width: 400px;
+}
+
+.note-item p {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.note-item .note-item-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=notes.css.map */
