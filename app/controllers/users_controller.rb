@@ -14,8 +14,6 @@ class UsersController < ApplicationController
 
         if @user.save
             login_user!(@user)
-            email = UserMailer.welcome_email(@user)
-            email.deliver
             redirect_to root_url
         else
             flash.now[:errors] = @user.errors.full_messages
